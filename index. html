@@ -1,1 +1,111 @@
 
+!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Risol UMKM - risol gurih dan lezat untuk camilan keluarga dan teman santai.">
+  <title>Risol Kita | Gurih di Setiap Gigitan</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="navbar container" aria-label="Navigasi utama">
+      <a class="brand" href="#beranda"><span class="brand-icon">🥟</span> Risol Kita<span class="brand-dot">.</span></a>
+      <div class="nav-links">
+        <a href="#beranda">Beranda</a>
+        <a href="#produk">Produk</a>
+        <a href="#tentang">Tentang Kami</a>
+        <a href="#kontak">Kontak</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="beranda">
+      <div class="container hero-layout">
+        <div class="hero-copy">
+          <p class="eyebrow">Camilan hangat, rasa istimewa</p>
+          <h1>Renyah di luar,<br><span>lezat di dalam!</span></h1>
+          <p class="hero-description">Nikmati risol dengan kulit yang renyah dan isian gurih. Cocok untuk teman santai, bekal, maupun sajian saat berkumpul bersama keluarga.</p>
+          <a class="button button-primary" href="#produk">Lihat Menu <span aria-hidden="true">→</span></a>
+        </div>
+        <div class="hero-visual" aria-hidden="true">
+          <div class="hero-circle"></div>
+          <div class="hero-food">🥟</div>
+          <span class="floating floating-one">✨</span>
+          <span class="floating floating-two">🌶️</span>
+          <span class="floating floating-three">🤎</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="section container" id="produk">
+      <div class="section-heading">
+        <p class="eyebrow">Menu pilihan</p>
+        <h2>Risol Favorit</h2>
+        <p>Pilih varian risol yang kamu suka. Nama menu dan isiannya dapat disesuaikan dengan produk asli usaha.</p>
+      </div>
+
+      <div class="product-grid">
+        <article class="product-card">
+          <div class="product-art art-one" aria-hidden="true">🥟</div>
+          <div class="product-info">
+            <span class="category">Klasik dan gurih</span>
+            <h3>Risol Sayur</h3>
+            <p>Risol dengan isian sayuran yang gurih dan nikmat.</p>
+            <span class="product-label">Pilihan klasik</span>
+          </div>
+        </article>
+        <article class="product-card">
+          <div class="product-art art-two" aria-hidden="true">🧀</div>
+          <div class="product-info">
+            <span class="category">Lembut dan creamy</span>
+            <h3>Risol Mayo</h3>
+            <p>Risol dengan isian mayones dan bahan pelengkap sesuai resep.</p>
+            <span class="product-label">Favorit pelanggan</span>
+          </div>
+        </article>
+        <article class="product-card">
+          <div class="product-art art-three" aria-hidden="true">🍗</div>
+          <div class="product-info">
+            <span class="category">Gurih dan mengenyangkan</span>
+            <h3>Risol Ayam</h3>
+            <p>Risol dengan isian ayam berbumbu yang lezat.</p>
+            <span class="product-label">Menu spesial</span>
+          </div>
+        </article>
+      </div>
+      <p class="note">Catatan: Varian, ilustrasi, dan deskripsi di atas adalah contoh. Ganti dengan foto, isian, dan harga produk asli sebelum website dipublikasikan.</p>
+    </section>
+
+    <section class="about-section" id="tentang">
+      <div class="container about-layout">
+        <div class="about-illustration" aria-hidden="true">🧡</div>
+        <div class="about-copy">
+          <p class="eyebrow">Cerita usaha kami</p>
+          <h2>Tentang Risol Kita</h2>
+          <p>Risol Kita adalah contoh website UMKM kuliner yang memperkenalkan aneka risol kepada pelanggan secara online. Melalui website ini, pelanggan dapat mengenal pilihan produk dan menemukan informasi pemesanan dengan mudah.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section contact-section container" id="kontak">
+      <p class="eyebrow">Kami siap melayani</p>
+      <h2>Pesan Risol Favoritmu</h2>
+      <p>Untuk mengetahui harga, ketersediaan produk, dan cara pemesanan, hubungi pemilik usaha melalui kontak resmi.</p>
+      <div class="contact-panel">
+        <strong>Informasi pemesanan</strong>
+        <span>Tambahkan nomor WhatsApp, alamat usaha, jam operasional, dan akun media sosial di sini.</span>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-layout">
+      <strong>Risol Kita<span>.</span></strong>
+      <p>© 2026 Risol Kita. Bangga mendukung UMKM lokal.</p>
+    </div>
+  </footer>
+</body>
+</html>
