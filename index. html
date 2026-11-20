@@ -3,69 +3,70 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Yummy Bakery - Kue lezat buatan rumahan dengan bahan premium.">
-    <title>Yummy Bakery | Kue Lembut & Lezat Setiap Hari</title>
-    <!-- Menggunakan relative path agar kompatibel dengan Cloud Storage & CDN -->
-    <link rel="stylesheet" href="./style.css">
+    <meta name="description" content="Yummy Bakery - Kue rumahan premium dengan bahan pilihan terbaik.">
+    <title>Yummy Bakery | Kue Lezat Setiap Hari</title>
+    <!-- Memuat stylesheet eksternal untuk efisiensi caching CDN -->
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <!-- Header & Navigasi -->
+
     <header class="navbar">
-        <div class="container nav-container">
-            <a href="./index.html" class="brand-logo">Yummy<span>.</span></a>
+        <div class="container">
+            <h1 class="logo">Yummy<span>.</span></h1>
             <nav>
-                <ul class="nav-links">
-                    <li><a href="#beranda">Beranda</a></li>
-                    <li><a href="#katalog">Katalog Kue</a></li>
-                    <li><a href="#kontak">Pesan Sekarang</a></li>
-                </ul>
+                <a href="#menu">Menu Kami</a>
+                <a href="#tentang">Tentang</a>
+                <a href="#kontak" class="btn-nav">Pesan Sekarang</a>
             </nav>
         </div>
     </header>
 
-    <!-- Hero Section -->
-    <section id="beranda" class="hero">
-        <div class="container hero-content">
-            <h1>Manisnya Kebahagiaan di Setiap Gigitan</h1>
-            <p>Kue artisan buatan rumahan dengan bahan-bahan pilihan terbaik. Dipanggang segar setiap pagi khusus untuk Anda.</p>
-            <a href="#katalog" class="btn-primary">Lihat Menu Kue</a>
+    <section class="hero">
+        <div class="container">
+            <h2>Manisnya Kebahagiaan di Setiap Gigitan</h2>
+            <p>Dibuat segar setiap pagi menggunakan mentega asli dan bahan-bahan berkualitas tinggi tanpa pengawet.</p>
+            <a href="#menu" class="btn-primary">Lihat Katalog Kue</a>
         </div>
     </section>
 
-    <!-- Katalog Produk -->
-    <section id="katalog" class="products">
+    <section id="menu" class="products">
         <div class="container">
-            <h2 class="section-title">Menu Favorit Yummy</h2>
+            <h3 class="section-title">Menu Andalan Yummy</h3>
             <div class="product-grid">
-                <div class="product-card">
-                    <div class="product-badge">Terlaris</div>
-                    <h3>Choco Melt Brownies</h3>
-                    <p>Brownies panggang dengan cokelat Belgia lumer di bagian dalam dan renyah di luar.</p>
-                    <span class="price">Rp 65.000</span>
+                <div class="card">
+                    <div class="card-badge">Terlaris</div>
+                    <h4>Choco Lava Melt</h4>
+                    <p>Bolu cokelat lembut dengan lelehan cokelat Belgia hangat di bagian tengah.</p>
+                    <span class="price">Rp 45.000</span>
                 </div>
-                <div class="product-card">
-                    <div class="product-badge">Baru</div>
-                    <h3>Classic Nastar Wisman</h3>
-                    <p>Kue kering klasik dengan selai nanas madu buatan sendiri dan mentega premium.</p>
-                    <span class="price">Rp 85.000</span>
+                <div class="card">
+                    <h4>Classic Cheese Tart</h4>
+                    <p>Kulit pai renyah dengan isian krim keju panggang yang gurih dan lumer.</p>
+                    <span class="price">Rp 55.000</span>
                 </div>
-                <div class="product-card">
-                    <h3>Soft Cheese Roll</h3>
-                    <p>Roti gulung super lembut dengan isian keju cheddar melimpah dan taburan gula halus.</p>
-                    <span class="price">Rp 50.000</span>
+                <div class="card">
+                    <h4>Pandan Klepon Cake</h4>
+                    <p>Perpaduan bolu pandan wangi, krim gula aren, dan taburan kelapa parut gurih.</p>
+                    <span class="price">Rp 60.000</span>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Footer & Kontak -->
-    <footer id="kontak" class="footer">
-        <div class="container footer-content">
-            <h3>Siap Memesan Kue Yummy?</h3>
-            <p>Melayani pengiriman instan area kota & pemesanan untuk acara spesial.</p>
-            <a href="https://wa.me/6281234567890" target="_blank" class="btn-secondary">Chat via WhatsApp</a>
-            <p class="copyright">&copy; 2026 Yummy Bakery UMKM. Hosted on Cloud Static Infrastructure.</p>
+    <section id="tentang" class="about">
+        <div class="container">
+            <h3 class="section-title">Kenapa Memilih Yummy?</h3>
+            <p>Berawal dari dapur rumahan, UMKM Yummy berkomitmen menghadirkan kue berkualitas kafe dengan harga bersahabat untuk menemani momen spesial keluarga Anda.</p>
+        </div>
+    </section>
+
+    <footer id="kontak">
+        <div class="container">
+            <p><strong>Yummy Bakery UMKM</strong> &bull; Buka Setiap Hari: 08.00 - 20.00 WIB</p>
+            <p>Pemesanan via WhatsApp: <strong>0812-3456-7890</strong></p>
+            <p class="infra-note">&copy; 2026 Yummy Bakery. Hosted on Cloud Static Infrastructure.</p>
         </div>
     </footer>
+
 </body>
 </html>
